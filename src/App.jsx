@@ -42,9 +42,14 @@ const App = () => {
   return (
     <>
       <div className="bg-green-100 rounded-lg p-4 h-full flex flex-col items-center">
+
+
+      <img src="/hero.png" className="heroImg"></img>
+
         <h1 className="text-4xl font-bold text-green-400 mb-4">
           Geographic Midpoint Calculator
         </h1>
+
 
         <Map points={points} setPoints={setPoints} weightedMidpoint={weightedMidpoint} />
 
