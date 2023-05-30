@@ -53,7 +53,7 @@ const App = () => {
 
         <Map points={points} setPoints={setPoints} weightedMidpoint={weightedMidpoint} />
 
-        <h1 className="text-2xl font-bold text-green-300 mt-4 text-center">
+        <h1 className="font-bold text-green-300 mt-4 text-center inputText">
           Click on the map to set the points first then set the weights!
         </h1>
 

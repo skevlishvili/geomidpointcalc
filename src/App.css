@@ -12,8 +12,18 @@
   padding: 0px;
 }
 
+.inputText {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 767px) {
   .headerText {
     display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .inputText {
+    font-size: 1rem;
   }
 }
