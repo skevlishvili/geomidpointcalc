@@ -46,14 +46,14 @@ const App = () => {
 
       <img src="/hero.png" className="heroImg"></img>
 
-        <h1 className="text-4xl font-bold text-green-400 mb-4">
+        <h1 className="text-4xl font-bold text-green-400 mb-4 headerText">
           Geographic Midpoint Calculator
         </h1>
 
 
         <Map points={points} setPoints={setPoints} weightedMidpoint={weightedMidpoint} />
 
-        <h1 className="text-2xl font-bold text-green-300 mt-4">
+        <h1 className="text-2xl font-bold text-green-300 mt-4 text-center">
           Click on the map to set the points first then set the weights!
         </h1>
 
@@ -62,14 +62,14 @@ const App = () => {
             type="text"
             value={points && points[0]?.lat}
             disabled
-            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2"
+            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2 headerText"
             defaultValue={"Click Map to Set!"}
           />
           <input
             type="text"
             value={points && points[0]?.lng}
             disabled
-            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2"
+            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2 headerText"
             defaultValue={"Click Map to Set!"}
           />
           <input
@@ -88,14 +88,14 @@ const App = () => {
             type="text"
             value={points && points[1]?.lat}
             disabled
-            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2"
+            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2 headerText"
             defaultValue={"Click Map to Set!"}
           />
           <input
             type="text"
             value={points && points[1]?.lng}
             disabled
-            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2"
+            className="bg-green-200 text-green-800 py-2 px-4 mb-2 rounded mr-2 headerText"
             defaultValue={"Click Map to Set!"}
           />
           <input
